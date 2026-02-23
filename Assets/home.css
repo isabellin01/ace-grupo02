@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url("./src/background.png");
+  background-image: url("background.png");
   color: #cdeaff;
 }
 
@@ -50,4 +50,9 @@ nav a:hover {
   padding: 30px;
   border-radius: 8px;
   text-align: center;
+}
+
+.topbar
+{
+  border-bottom: 2px solid #6AD6EE;
 }
