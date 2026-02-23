@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <title>ACE Dashboard</title>
   <link rel="stylesheet" href="public/css/home.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
 </head>
+
 <body>
 
   <header class="topbar">
-    <div class="logo"><img src="assets/logo.png" alt=""></div>
+    <div class="logo"><img src="./Assets/logo.png" alt=""></div>
 
     <nav>
       <a href="">SISTEMA A.C.E</a>
@@ -17,19 +21,29 @@
     </nav>
 
     <nav>
-        <a href="">LOGIN</a>
-        <a href="">CADASTRO</a>
+      <a href="">LOGIN</a>
+      <a href="">CADASTRO</a>
     </nav>
   </header>
 
   <main class="container">
 
-    
+
     <section class="news">
       <h2>NOTÍCIAS RECENTES</h2>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><div class="noticia"><img src="./Assets/noticias/1.png" alt=""></div></div>
+          <div class="swiper-slide"><div class="noticia"><img src="./Assets/noticias/2.png" alt=""></div></div>
+          <div class="swiper-slide"><div class="noticia"><img src="./Assets/noticias/3.png" alt=""></div></div>
+        </div>
+      </div>
     </section>
 
   </main>
 
 </body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+<script src="./public/js/slide.js"></script>
+
 </html>
