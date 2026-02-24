@@ -1,0 +1,69 @@
+.login {
+    width: 78%;
+    justify-self: center;
+    color: #6AD6EE;
+    background: #172739;
+    border: 2px solid #0ff3;
+    padding: 30px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid #6AD6EE;
+}
+
+.login>div {
+    flex: 1;
+}
+
+.login > div:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login img {
+    width: 100%;
+}
+
+.login div * {
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    border-bottom: 2px solid #6AD6EE;
+    font-size: 15px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.container {
+    padding: 40px 0;
+}
+
+button {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #6AD6EE;
+    color: #172739;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #4bbcd3;
+    transform: scale(1.01);
+}
+
+.login input,
+.login button {
+    width: 80%;
+}
