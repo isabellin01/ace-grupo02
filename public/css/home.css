@@ -183,4 +183,5 @@ nav a:hover {
 .footer {
   justify-self: center;
   color: var(--branco);
+  margin-bottom: 20px;
 }

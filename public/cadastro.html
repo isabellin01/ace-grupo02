@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ACE Login</title>
+    <title>ACE Cadastro</title>
     <link rel="stylesheet" href="./css/home.css">
-    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/cadastro.css">
 </head>
 
 <body>
@@ -26,17 +26,24 @@
     </header>
 
     <main class="container">
-        <section class="login">
+        <section class="cadastro">
             <div>
-                <h2>Login</h2>
-                <p>E-mail</p>
+                <h2>Cadastro</h2>
+                <label>Nome completo</label>
+                <input type="text" placeholder="Nome completo">
+                <label>Usuário</label>
+                <input type="text" placeholder="Usuário">
+                <label>E-mail</label>
                 <input type="email" placeholder="email@teste.com">
-                <p>Senha</p>
+                <label>Código de ativação</label>
+                <input type="text" placeholder="">
+                <label>Senha</label>
                 <input type="password" placeholder="********">
-                <button>Entrar</button>
+                <span>(8 caracteres com letras e números)</span>
+                <button>Cadastrar</button>
             </div>
             <div>
-                <img src="../Assets/login.png">
+                <img src="../Assets/cadastro.png">
             </div>
         </section>
     </main>
