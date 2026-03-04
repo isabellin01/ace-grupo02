@@ -41,9 +41,9 @@
                 <input type="password" placeholder="********">
                 <span>(8 caracteres com letras e números)</span>
                 <button>Cadastrar</button>
+                <a href="./login.html" class="login-link">Já tem conta? Entrar</a>
             </div>
             <div>
-                <img src="../Assets/cadastro.png">
             </div>
         </section>
     </main>
@@ -51,6 +51,60 @@
     <footer class="footer">
         <h3>ACE - SPTech &copy; 2026</h3>
     </footer>
-</body>
 
+    <div class="cadastro-mobile">
+
+    <div class="topbar-mobile">
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <nav class="nav-mobile" id="mobileNav">
+        <a href="../index.html">SISTEMA A.C.E</a>
+        <a href="">AGENTES</a>
+        <a href="">MAPAS</a>
+        <a href="./login.html">LOGIN</a>
+        <a href="./cadastro.html">CADASTRO</a>
+        
+    </nav>
+
+    <img src="../Assets/logo.png" class="logo-mobile">
+
+    <div class="form-mobile">
+        <label>Nome completo</label>
+        <input type="text" placeholder="Nome completo">
+        <label>Usuário</label>
+        <input type="text" placeholder="Usuário">
+        <label>E-mail</label>
+        <input type="email" placeholder="email@teste.com">
+        <label>Código de ativação</label>
+        <input type="text" placeholder="">
+        <label>Senha</label>
+        <input type="password" placeholder="********">
+        <span>(8 caracteres com letras e números)</span>
+        <button>Cadastrar</button>
+        <a href="./login.html" class="login-link">Já tem conta? Entrar</a>
+    </div>
+
+    <span class="footer-mobile">ACE - SPTech &copy; 2026</span>
+</div>
+</body>
+<script>
+    var hamburger = document.getElementById('hamburger');
+    var mobileNav = document.getElementById('mobileNav');
+    var menuAberto = false;
+
+    hamburger.onclick = function() {
+        if (menuAberto) {
+            mobileNav.style.display = 'none';
+            menuAberto = false;
+        } else {
+            mobileNav.style.display = 'flex';
+            menuAberto = true;
+        }
+    };
+</script>
 </html>
